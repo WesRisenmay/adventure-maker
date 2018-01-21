@@ -1,0 +1,15 @@
+$navigation-width: 300px;
+
+.am-navigation {
+    background-color: $color-primary;
+    color: white;
+    left: calc(#{$navigation-width} * -1);
+    position: absolute;
+    top: 0;
+    transition: left .4s;
+    width: $navigation-width;
+
+    &.open {
+        left: 0;
+    }
+}

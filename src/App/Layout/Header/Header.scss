@@ -1,0 +1,18 @@
+.am-header {
+    align-items: center;
+    background-color: $color-primary;
+    color: white;
+    display: flex;
+    height: 40px;
+
+    .navigation-button {
+        cursor: pointer;
+        font-size: 25px;
+        width: 30px
+    }
+
+    .title {
+        margin-left: 30px;
+        font-weight: 300;
+    }
+}
